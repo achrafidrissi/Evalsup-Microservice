@@ -1,4 +1,13 @@
 package com.evalsup.crud.entity;
 
-public class Admin {
+import jakarta.persistence.*;
+import lombok.*;
+
+@Entity
+@DiscriminatorValue("ADMIN")
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+
+public class Admin extends Personne {
 }
