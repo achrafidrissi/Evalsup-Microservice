@@ -8,8 +8,8 @@ import java.time.LocalDateTime;
 @Getter @AllArgsConstructor
 public class ErrorResponseDto {
 
-    private String apiPath;
-    private HttpStatus errorCode;
-    private String errorMessage;
+    private int status;
+    private String error;
+    private String message;
     private LocalDateTime errorTime;
 }
