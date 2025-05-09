@@ -1,10 +1,10 @@
-package com.evalsup.crud.entity;
+package com.evalsup.crud.Entity;
 
 import jakarta.persistence.*;
 import lombok.*;
 
 @Entity
-@Data
+@Getter @Setter @ToString
 @NoArgsConstructor
 @AllArgsConstructor
 public class Enseignement {

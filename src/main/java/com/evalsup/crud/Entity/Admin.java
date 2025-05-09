@@ -1,11 +1,11 @@
-package com.evalsup.crud.entity;
+package com.evalsup.crud.Entity;
 
 import jakarta.persistence.*;
 import lombok.*;
 
 @Entity
 @DiscriminatorValue("ADMIN")
-@Data
+@Getter @Setter @ToString
 @NoArgsConstructor
 @AllArgsConstructor
 

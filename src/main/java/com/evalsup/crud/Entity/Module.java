@@ -1,4 +1,4 @@
-package com.evalsup.crud.entity;
+package com.evalsup.crud.Entity;
 
 import jakarta.persistence.*;
 import lombok.*;
@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Entity
-@Data
+@Getter @Setter @ToString
 @NoArgsConstructor
 @AllArgsConstructor
 public class Module {

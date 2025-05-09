@@ -1,2 +1,4 @@
-package com.evalsup.crud.Service;public interface FormationService {
+package com.evalsup.crud.Service;
+
+public interface FormationService {
 }

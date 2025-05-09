@@ -1,4 +1,4 @@
-package com.evalsup.crud.entity;
+package com.evalsup.crud.Entity;
 
 import jakarta.persistence.*;
 import lombok.*;
@@ -6,7 +6,7 @@ import lombok.*;
 import java.time.LocalDate;
 
 @Entity
-@Data
+@Getter @Setter @ToString
 @NoArgsConstructor
 @AllArgsConstructor
 public class Progression {
