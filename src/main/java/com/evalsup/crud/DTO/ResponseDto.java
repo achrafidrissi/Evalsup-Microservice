@@ -1,10 +1,10 @@
 package com.evalsup.crud.DTO;
 
 
-import lombok.Getter;
-import lombok.Setter;
+import lombok.*;
 
-@Getter @Setter
+@Data
+@NoArgsConstructor @AllArgsConstructor
 public class ResponseDto<T> {
     private String statusCode;
     private String statusMsg;
